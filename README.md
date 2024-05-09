@@ -1,4 +1,31 @@
 # spaces
+Use containers for Development Environment.
+
+
+## Interface
+
+### CLI
+
+#### Example
+```
+spaces new dev --distro ubuntu:20.04 
+spaces enter dev
+sudo apt install cmake
+spaces update dev
+```
+
+#### Create new space
+```
+# Defaults to use the host OS as base for the container.
+spaces new dev
+
+# You can create a copy of the space.
+spaces new dev --copy old-dev
+```
+
+
+### GNOME Shell Extensions
+Should look something like [Places Status Indicator](https://extensions.gnome.org/extension/8/places-status-indicator/).
 
 ## Concerns
 - Tools
@@ -20,6 +47,10 @@
 - Git Credentials
 - Repositories
 - Setup has to be reguraly synced and updated across a team without breaking work
+
+## Anlogous Things
+- [Microsoft Edge Workspaces](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-workspaces)
+- [Chrome Workspaces Extenssion](https://chromewebstore.google.com/detail/workspaces/hpljjefgmnkloakbfckghmlapghabgfa)
 
 ## Existing Tools
 - Containers
