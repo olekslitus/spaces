@@ -1,7 +1,7 @@
 # spaces
 
 ## Concerns
-- Applications
+- Tools
   - Build Tools
   - Test Tools
   - Debug Tools
@@ -9,6 +9,14 @@
     - Log Acquire and Analysis
     - Database Access
 - SSH Config
+- Tool Configs
+  - IDE config
+    - vim config
+    - CLion config
+    - VSCode config
+    - Eclipse config
+  - Bash Config
+  - Azure CLI config
 - Git Credentials
 - Repositories
 - Setup has to be reguraly synced and updated across a team without breaking work
@@ -26,7 +34,8 @@
 - [Nix](https://nixos.org/)
   - [mkShell](https://ryantm.github.io/nixpkgs/builders/special/mkshell/)
   - [Devenv](https://devenv.sh/)
-  - [Devbox](https://www.jetify.com/devbox)
+    - [Use custom packages in devenv](https://devenv.sh/guides/using-with-flakes/#modifying-your-flakenix-file)
+  - [devbox](https://www.jetify.com/devbox)
   - [Flox](https://flox.dev/)
   - [Devshell](https://numtide.github.io/devshell/)
 - Remote
