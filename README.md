@@ -2,8 +2,15 @@
 
 ## Concerns
 - Applications
+  - Build Tools
+  - Test Tools
+  - Debug Tools
+  - Utility Tools
+    - Log Acquire and Analysis
+    - Database Access
 - SSH Config
 - Git Credentials
+- Repositories
 - Setup has to be reguraly synced and updated across a team without breaking work
 
 ## Existing Tools
